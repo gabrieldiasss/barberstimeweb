@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch } from 'react-router-dom'
 
-/* import { Login } from './pages/Login';
+/* 
 import { Register } from './pages/Register';
 import { Home } from './pages/Home'
 import { BarberServices } from './pages/BarberServices';
@@ -10,6 +10,7 @@ import { Profile } from './pages/Profile';
 
 import PrivateRoute from './private/PrivateRoute.tsx' */
 import PrivateRedirectToHome from './private/PrivateLogin'
+import { Login } from './pages/Login';
 import { Welcome } from './pages/Welcome'
 
 export function Routes() {
@@ -19,8 +20,8 @@ export function Routes() {
         <Router>
             <Switch>
                 <PrivateRedirectToHome exact path="/" component={Welcome} />
-               {/*  <PrivateRedirectToHome exact path="/login" component={Login} />
-                <PrivateRedirectToHome exact path="/register" component={Register} />
+                 <PrivateRedirectToHome exact path="/login" component={Login} />
+                 {/* <PrivateRedirectToHome exact path="/register" component={Register} />
                 <PrivateRoute exact path="/home" component={Home} />
                 <PrivateRoute exact path="/services/:id" component={BarberServices} />
                 <PrivateRoute exact path="/myappointments" component={Appointments} />
