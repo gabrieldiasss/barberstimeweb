@@ -1,10 +1,14 @@
 
+import { Routes } from "./Routes"
+import { GlobalStyle } from "./styles/global"
 
 function App() {
 
 	return (
 		<>
-			oi
+			<GlobalStyle />
+
+			<Routes />
 		</>
 	)
 }
