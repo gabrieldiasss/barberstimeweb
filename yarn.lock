@@ -206,7 +206,7 @@
     "@babel/plugin-syntax-jsx" "^7.18.6"
     "@babel/types" "^7.19.0"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.19.0":
   "integrity" "sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
   "version" "7.20.1"
@@ -308,6 +308,301 @@
   dependencies:
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
+
+"@styled-icons/bootstrap@10.46.0":
+  "integrity" "sha512-Lbf65X45/M+I8j2czmR79+qmA2IK5XqihF7zH32XXN62+V+cgDxDNXlkz6xGkUk0TK/DVx7BxIfIx1EG5kyUhg=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/bootstrap/-/bootstrap-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/boxicons-logos@10.46.0":
+  "integrity" "sha512-+i85m0XqTN1VJPWqQuBgELuh0fljE5vrFtoXSlBNXLuRDSFXg587S+3SzoqgD5q0b/lkP9hNUUTJtKi7zjfOnA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/boxicons-logos/-/boxicons-logos-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/boxicons-regular@10.46.0":
+  "integrity" "sha512-lru8i8Q62gC5UZchdpSC0gJgov7cCU114YBhK8JRdLJ8gQFPJgxOafSnqHtcHf3e4TvuSMcXBH9Z/gOjUzEb7g=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/boxicons-regular/-/boxicons-regular-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/boxicons-solid@10.46.0":
+  "integrity" "sha512-fXbuFeXmrcHquTqYzRl7a9ZNSqPlr4vgAEItpb8bk/81G3Jo//TJKC0QOtwDtWkeqisx5WFFfpd/7H8D82CSIg=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/boxicons-solid/-/boxicons-solid-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/crypto@10.46.0":
+  "integrity" "sha512-V0vxzm2mJv0iECLC+cBVowqnKHSeAjaY5I7rvpN7UETuggM3kEBznNo45PBJB2hxbjUfKARfjWm5GDVNYwCf0Q=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/crypto/-/crypto-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/entypo-social@10.46.0":
+  "integrity" "sha512-DWbUK7JkuAu4TPIBeeYfxys3cP8M4/q/XG2JVruDHa18viCEcDR1JXfn1p3TVYZCvlciKev+Vr1yrgcamTwVkg=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/entypo-social/-/entypo-social-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/entypo@10.46.0":
+  "integrity" "sha512-0ChIqx3EMlMeout4Aa5AwEYtKsgTqrY/NnVQGvhlGfMYq9mC7jq7JuaKvt5SJ9/0cEnVhgW5zwAe4LeyrsJl5g=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/entypo/-/entypo-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/evaicons-outline@10.46.0":
+  "integrity" "sha512-+tHb/Ir6G1e+rSJ2YKgm2vzjF80JoXWEmoC48exFrQEKQkJPSWtsqKdROkfANKrY9AFnRKhJQ+9fHhnjS+V/OA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/evaicons-outline/-/evaicons-outline-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/evaicons-solid@10.46.0":
+  "integrity" "sha512-tRw2/TkmRNV4N2badKPFnnRy+WbVtUkrloNo94CgF5rpxoL0eK+ki3OYZYqbl0T66bJ07hqduqTc3rbxvT/vfw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/evaicons-solid/-/evaicons-solid-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/evil@10.46.0":
+  "integrity" "sha512-r1g2jZmz84XGLgJbAPkMDmuToUF+KyNWkS6GNoP+ygzriNgzgoHkcEvIb/bx/I2/UUHeotRMOknvhvh5C2CwFg=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/evil/-/evil-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/fa-brands@10.46.0":
+  "integrity" "sha512-SAxmTrec9FlXQMrAD4h+BakyRfLeiebjcbkdnmM0kU+PTQ+EazPPtb4eAnkB2wYBgLEbXjXItAiMi0BcRZw6iw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/fa-brands/-/fa-brands-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/fa-regular@10.46.0":
+  "integrity" "sha512-VdjLeXxJeymmlL+Rt2vub5ZsJHuQJYsi3E7svEiec/f7U73kK4DyQ3l0dgQS6hhfAhn6unoOwpsV1URsrb+skA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/fa-regular/-/fa-regular-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/fa-solid@10.46.0":
+  "integrity" "sha512-P6WxqPaBp9EbgPOlfOw9vFKie/+3D51AzFwgeTDs/7CWUpyoDjpRE2dFsPwxAHo0qbF/nspkkrpn+qft2Rdkvg=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/fa-solid/-/fa-solid-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/feather@10.46.0":
+  "integrity" "sha512-Pluic9wCJENvuhc/QXwmnJ/VP575k+c3BGdEZRzI7uBfZcSvG9hXoLWaLrxQNIWI46hCZFSlkZQGTKZ7dAxC9Q=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/feather/-/feather-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/fluentui-system-filled@10.46.0":
+  "integrity" "sha512-qo05JapoosiGwMLtgmQNREydNudMiNKFdj2XgauvAz71X5x591gPMwIzHn4ssoYnk2kMRswN8/ohJZAnEW/Tnw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/fluentui-system-filled/-/fluentui-system-filled-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/fluentui-system-regular@10.46.0":
+  "integrity" "sha512-Ojn2nGx2NY2QnELYG07k7uPXQ6jZ4MKeloby3wNgyncmcMikANPeMs0IJXWeUlW3YcOGMjnVYPq/A8v7QPJ0dQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/fluentui-system-regular/-/fluentui-system-regular-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/foundation@10.46.0":
+  "integrity" "sha512-RZqNVxStjvboGg6+X1By9pE0j7FuzUkfgbu9SgOkSzMrHTvnTOu0JiQ7nNw+CY46rXhT8JTwRCgk2OLTk+anGA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/foundation/-/foundation-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/heroicons-outline@10.46.0":
+  "integrity" "sha512-VRzbF7jMUxpZsPaYOpbRZ5uIIlQgyA63/1E74jNxcH5USqp87Ukr7+GXStDbgR+0rNMFfBiBUbeWBnkVlDhRsw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/heroicons-outline/-/heroicons-outline-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/heroicons-solid@10.46.0":
+  "integrity" "sha512-cm2TxlYdW4WhQmDxDj+bVgY74WQglwwFpb6FWVX752+ZCY7ljedujCDYpShj9IYX8F56jFQCg9/Ijd46LpjoRQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/heroicons-solid/-/heroicons-solid-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/icomoon@10.46.0":
+  "integrity" "sha512-3KcTTuswDrC03byyr9G9v5aWDTrhO6PbbN5O7CtU4/NXY4AaOkTQ8GUfvRjZ8yG/aEYRH4VYkWFpYu1CdsZxNg=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/icomoon/-/icomoon-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/ionicons-outline@10.46.0":
+  "integrity" "sha512-BEFEBGQDhPssEshbHyrsAXbEb7hNsrsHa0Zh0zLlfCIB3Vxc2GrQU9Qibto443ZRVw5qgF7iBdSwQHiwY8dQJw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/ionicons-outline/-/ionicons-outline-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/ionicons-sharp@10.46.0":
+  "integrity" "sha512-ZMkS+zBe04odi/4llkKMZkNEz8K3whta7Chzk81vvCTtR7jMnGEyw+tMUZbARliOOyaELBeTbgeUwNRNTibiSA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/ionicons-sharp/-/ionicons-sharp-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/ionicons-solid@10.46.0":
+  "integrity" "sha512-agiuzQzqrrRWHrGfswC6EciKVjt/XSZuQFbvP/s6qU2oYkQuJRdhmAZQldTaj9Xb2GyAmEjM0cmkWG3+JzV7CQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/ionicons-solid/-/ionicons-solid-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/material-outlined@10.46.0":
+  "integrity" "sha512-4TTzv/R/V7yUeO1n4xjlcipLIDBs6RzpMeiF5jrzC2hnaLhF304bV3rPlCPzmlTi433CCWo7cadb0p+tePsvzQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/material-outlined/-/material-outlined-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/material-rounded@10.46.0":
+  "integrity" "sha512-XVdZLoa1ETblaojgbKfDiCWXqfSpcGdnaXd1kc2jKTtS0gp4brje9mndsXnvRLjpUw1H4WhOI4ty9/Cmz1Hvig=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/material-rounded/-/material-rounded-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/material-sharp@10.46.0":
+  "integrity" "sha512-cbUPayb4wd967hDZFeNdnWbfaaLa1MaUEqsejLx6hVtW1+mz2+jZKvB897sVUvFbRF0CjIjEtuV6sxB64VWO9g=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/material-sharp/-/material-sharp-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/material-twotone@10.46.0":
+  "integrity" "sha512-aTI0f1YrwY5b0nbxHXi5/0784hty3OjxQeiyViC6C7IpbYqvwEmfpS2VMZC+MzOTNW3mNFGhiT2nZXpzuUDZGQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/material-twotone/-/material-twotone-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/material@10.46.0":
+  "integrity" "sha512-kE4G51Y4YxNf+6jtnKrQl8+xYVwhOiOmJWkAPtY2DYOKYszMEZzH7qUcQzhLvGQuj12/h+oSpBDP/IEPcDIyXQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/material/-/material-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/octicons@10.46.0":
+  "integrity" "sha512-lso641QwWs+BF4KTSCMDWP3vTbd5yLcmaSnyfE5CNu9dHG4TDCvos3xNSeTuIUchyRXvsaYu7pHaxLwYqdoTmA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/octicons/-/octicons-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/open-iconic@10.46.0":
+  "integrity" "sha512-v7wrHcUACQeSfJrLan/jXxgz7RSlJJXSc2u33UR82ewkOSBhaXp/zZxKF1tFCT2spvth0NBl6OkZUCw9ctgyrA=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/open-iconic/-/open-iconic-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/remix-editor@10.46.0":
+  "integrity" "sha512-oOrt6wj5//4LrZkm40bXcsFpTgXbdOkixu6RHuE3O82+Hqtw1bYR/smm5MbLOJ+Kz62SEjDF3sxqFO23ITDeUQ=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/remix-editor/-/remix-editor-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/remix-fill@10.46.0":
+  "integrity" "sha512-D2rWGJ9/7BR+3TMvmIoWGASMfyhWT4lTF+we8h9Pya5Ye+69cftvp817DMuaR/6czCugXTrB++HTQX0XJfoBFw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/remix-fill/-/remix-fill-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/remix-line@10.46.0":
+  "integrity" "sha512-TkbtXdgcuM7VpE/51k8+sxfReFjSQpAFVnjJi8/gxwcTzjdOG7Plkgsaixi2+hiLk/Coj/+67KbntBoSevROsw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/remix-line/-/remix-line-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/simple-icons@10.46.0":
+  "integrity" "sha512-zHkbGqAqFOwpqDjbhKTKsAXNxtBOXb7Ot2eKoDaDFckJGr2shAXRchclUS6wSixSPwQIPGAUcdO7Cq744Ollng=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/simple-icons/-/simple-icons-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/styled-icon@^10.7.0", "@styled-icons/styled-icon@10.7.0":
+  "integrity" "sha512-SCrhCfRyoY8DY7gUkpz+B0RqUg/n1Zaqrr2+YKmK/AyeNfCcoHuP4R9N4H0p/NA1l7PTU10ZkAWSLi68phnAjw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/styled-icon/-/styled-icon-10.7.0.tgz"
+  "version" "10.7.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+
+"@styled-icons/typicons@10.46.0":
+  "integrity" "sha512-yCJnVggGsbxOyuIPEmD+9IYRvB5w41hpJKdpI0ErasYG9Izt/lGqUaaDaxR39u9s28Q54Fq/v+Ni17dFCs8FOw=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/typicons/-/typicons-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
+
+"@styled-icons/zondicons@10.46.0":
+  "integrity" "sha512-DUlww6TeFsFjHD/1qd+DtMutm44r3ssOYtPiMJrOVolX1NqdW6XzrJ5dTbVCA2s7Ucd+Vp25cWfXnLcJBfas3w=="
+  "resolved" "https://registry.npmjs.org/@styled-icons/zondicons/-/zondicons-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/styled-icon" "^10.7.0"
 
 "@types/history@^4.7.11":
   "integrity" "sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA=="
@@ -770,6 +1065,11 @@
   "resolved" "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.39.4.tgz"
   "version" "7.39.4"
 
+"react-icons@^4.6.0":
+  "integrity" "sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.6.0.tgz"
+  "version" "4.6.0"
+
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -831,7 +1131,7 @@
   dependencies:
     "clsx" "^1.1.1"
 
-"react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17 || ^18", "react@^18.2.0", "react@>= 16.8.0", "react@>=15", "react@>=16":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.8.0 || ^17 || ^18", "react@^18.2.0", "react@>= 16.8.0", "react@>=15", "react@>=16":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -891,7 +1191,7 @@
   "resolved" "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
   "version" "1.4.8"
 
-"styled-components@^5.3.6", "styled-components@>= 2":
+"styled-components@*", "styled-components@^5.3.6", "styled-components@>= 2", "styled-components@>=4.1.0 <6":
   "integrity" "sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.6.tgz"
   "version" "5.3.6"
@@ -906,6 +1206,50 @@
     "hoist-non-react-statics" "^3.0.0"
     "shallowequal" "^1.1.0"
     "supports-color" "^5.5.0"
+
+"styled-icons@^10.46.0":
+  "integrity" "sha512-1Sd129fFy8j/fHgMnnxZPq1gyj8qX8TCbhGxsHG6SiQMXB6idYdOpq3ni06kiCVbinM1kqslhdNXKED4Ze+LJg=="
+  "resolved" "https://registry.npmjs.org/styled-icons/-/styled-icons-10.46.0.tgz"
+  "version" "10.46.0"
+  dependencies:
+    "@babel/runtime" "^7.19.0"
+    "@styled-icons/bootstrap" "10.46.0"
+    "@styled-icons/boxicons-logos" "10.46.0"
+    "@styled-icons/boxicons-regular" "10.46.0"
+    "@styled-icons/boxicons-solid" "10.46.0"
+    "@styled-icons/crypto" "10.46.0"
+    "@styled-icons/entypo" "10.46.0"
+    "@styled-icons/entypo-social" "10.46.0"
+    "@styled-icons/evaicons-outline" "10.46.0"
+    "@styled-icons/evaicons-solid" "10.46.0"
+    "@styled-icons/evil" "10.46.0"
+    "@styled-icons/fa-brands" "10.46.0"
+    "@styled-icons/fa-regular" "10.46.0"
+    "@styled-icons/fa-solid" "10.46.0"
+    "@styled-icons/feather" "10.46.0"
+    "@styled-icons/fluentui-system-filled" "10.46.0"
+    "@styled-icons/fluentui-system-regular" "10.46.0"
+    "@styled-icons/foundation" "10.46.0"
+    "@styled-icons/heroicons-outline" "10.46.0"
+    "@styled-icons/heroicons-solid" "10.46.0"
+    "@styled-icons/icomoon" "10.46.0"
+    "@styled-icons/ionicons-outline" "10.46.0"
+    "@styled-icons/ionicons-sharp" "10.46.0"
+    "@styled-icons/ionicons-solid" "10.46.0"
+    "@styled-icons/material" "10.46.0"
+    "@styled-icons/material-outlined" "10.46.0"
+    "@styled-icons/material-rounded" "10.46.0"
+    "@styled-icons/material-sharp" "10.46.0"
+    "@styled-icons/material-twotone" "10.46.0"
+    "@styled-icons/octicons" "10.46.0"
+    "@styled-icons/open-iconic" "10.46.0"
+    "@styled-icons/remix-editor" "10.46.0"
+    "@styled-icons/remix-fill" "10.46.0"
+    "@styled-icons/remix-line" "10.46.0"
+    "@styled-icons/simple-icons" "10.46.0"
+    "@styled-icons/styled-icon" "10.7.0"
+    "@styled-icons/typicons" "10.46.0"
+    "@styled-icons/zondicons" "10.46.0"
 
 "supports-color@^5.3.0", "supports-color@^5.5.0":
   "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="
