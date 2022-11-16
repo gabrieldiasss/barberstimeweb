@@ -1,15 +1,16 @@
 import { BrowserRouter as Router, Switch } from 'react-router-dom'
 
-import { Login } from './pages/Login';
+/* import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { Home } from './pages/Home'
 import { BarberServices } from './pages/BarberServices';
 import { Appointments } from './pages/Appointments';
 import { Profile } from './pages/Profile';
-import { Welcome } from './pages/Welcome'
 
-import PrivateRoute from './private/PrivateRoute.tsx'
-import PrivateRedirectToHome from './private/PrivateLogin.tsx'
+
+import PrivateRoute from './private/PrivateRoute.tsx' */
+import PrivateRedirectToHome from './private/PrivateLogin'
+import { Welcome } from './pages/Welcome'
 
 export function Routes() {
 
