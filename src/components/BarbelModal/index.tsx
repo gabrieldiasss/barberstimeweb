@@ -248,7 +248,7 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
 
                 {listHours.length > 0 &&
                     <CardHours>
-                        {listHours.map((item, key) => (
+                        {listHours.map((item: any, key) => (
                             <div
                                 key={key}
                                 onClick={() => setSelectedHour(item)}
