@@ -12,7 +12,7 @@ export function Navbar() {
 
                 <nav>
                     <ul>
-                        <li><Link to="/" >HOME</Link></li>
+                        <li><Link to="/home" >HOME</Link></li>
                         <li><Link to="/myappointments" >AGENDAMENTOS</Link></li>
                         <li><Link to="/profile" >PERFIL</Link></li>
                     </ul>

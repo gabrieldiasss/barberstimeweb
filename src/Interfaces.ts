@@ -43,6 +43,7 @@ export interface Appointment {
 export interface BarberAppointment {
 	id: number;
   	name: string;
+    name_service: string;
 	avatar_url: string;
 	price_service: number;
 	selectedDay: number;

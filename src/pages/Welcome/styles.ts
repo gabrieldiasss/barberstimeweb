@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    
+
 `
 
 export const Header = styled.header`
@@ -15,7 +15,6 @@ export const Header = styled.header`
         margin: 2rem auto;
     }
    
-
     .headline {
         display: flex;
         align-items: center;
@@ -52,7 +51,7 @@ export const Buttons = styled.main`
     display: flex;
     justify-content: center;
 
-    margin-top: 5rem;
+    margin-top: 6rem;
 
     gap: 3rem;
 
@@ -89,8 +88,7 @@ export const ButtonRegister = styled.button`
 `
 
 export const ButtonLogin = styled.button`
-    padding: 8rem 8rem 2rem 1rem;
-    font-size: 1.8rem;
+    padding: 8rem 8rem 2rem 3rem;
     position: relative;
 
     color: #212025;
@@ -104,7 +102,7 @@ export const ButtonLogin = styled.button`
 
     border-radius: 5px;
 
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 
     @media(max-width: 720px) {
         padding: 4rem 4rem 2rem 1rem;

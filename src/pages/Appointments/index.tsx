@@ -38,10 +38,7 @@ export function Appointments() {
     setModalCancel(false);
   }
 
-  /* console.log(appointments) */
-
   useEffect(() => {
-    let id = localStorage.getItem("infoUserId");
 
     axios
       .get(`https://api-braga.herokuapp.com/api/appointments`, {
@@ -51,7 +48,6 @@ export function Appointments() {
       })
       .then((response) => {
         setAppointments(response.data);
-        console.log(response.data);
         setLoadingAppointments(true);
       })
       .catch((err) => {
@@ -115,6 +111,8 @@ export function Appointments() {
     );
   }
 
+  
+
   return (
     <>
       <Navbar />
@@ -123,7 +121,7 @@ export function Appointments() {
 
       <Container>
         <h1>Meus agendamentos</h1>
-
+      
         {appointments.length > 0 && appointments.map((info) => (
           <CardAppointment key={info.id}>
             <header>
@@ -132,7 +130,7 @@ export function Appointments() {
             </header>
 
             <CardService>
-              <h3>{info.name}</h3>
+              <h3>{info.name_service}</h3>
 
               <h3>
                 {new Intl.NumberFormat("pt-br", {

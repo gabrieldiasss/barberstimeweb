@@ -66,8 +66,6 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
     const [listDays, setListDays] = useState<ListDays[]>([])
     const [listHours, setListHours] = useState<Available[] | string[]>([])
 
-    let userId = localStorage.getItem("infoUserId")
-    let nameUser = localStorage.getItem("infoUserName")
     const accessToken = localStorage.getItem("accessToken")
 
     useEffect(() => {
@@ -129,18 +127,13 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
     }, [selectedMonthSchedule, selectedYear])
 
     useEffect(() => {
-        let id = localStorage.getItem("infoUserId")
+
 
         let today = new Date()
         setSelectedYear(today.getFullYear())
         setSelectedMonthSchedule(today.getMonth())
         setSelectedDay(today.getDate())
 
-        axios.get(`https://api-braga.herokuapp.com/api/barbersAll/${id}`)
-            .then((response) => {
-                setAppointments(response.data)
-                console.log(response.data)
-            })
     }, [])
 
     function handleLeftClick() {
@@ -161,7 +154,6 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
 
     async function handleFinishSchedule() {
 
-
             if (barber.barber.id && service != null && selectedYear > 0 && selectedMonthSchedule > 0 && selectedDay > 0 && selectedHour != null) {
 
                 let selectedMonth = selectedMonthSchedule + 1
@@ -177,10 +169,6 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
                     selectedHour,                  
                 }
 
-                console.log(data)
-                
-                console.log(accessToken)
-
                 await axios.post("https://api-braga.herokuapp.com/api/appo", data, {
                     headers: {
                         'Authorization': `Bearer ${accessToken}`
@@ -194,6 +182,9 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
             }
     }
 
+    
+
+
     return (
 
         <Modal
@@ -204,6 +195,8 @@ export function BarberModal({ isOpen, onRequestClose, barber, service }: BarberM
         >
 
             <ToastContainer autoClose={3000} />
+
+            
 
             <Main>
                 <CardBarber>
